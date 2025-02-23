@@ -1,7 +1,3 @@
-#https://www.google.com/maps/place/
-
-
-#C.+de+Rodríguez+Jaén,+26,+Madrid
 
 import re
 import webbrowser
@@ -52,7 +48,7 @@ def user_interaction():
         else:
             print("I'm sorry, but I can't provide information on this country")
 
-def get_state_abbreviation(state_name, json_file='/Users/elisacascudo/Desktop/Universidad/4º-2S/idkd/experiment/Map Project/states.json'):
+def get_state_abbreviation(state_name, json_file='states.json'):
     try:
         # Open and load the JSON file
         with open(json_file, 'r') as file:
